@@ -1,0 +1,17 @@
+.position {
+  top: 0;
+  height: 40px;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  background-color: aqua;
+}
+
+.logo {
+  padding-left: 25px;
+}
+
+.menu {
+  padding-right: 25px;
+}
