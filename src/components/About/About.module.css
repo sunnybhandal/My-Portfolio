@@ -1,0 +1,12 @@
+.container {
+  position: relative;
+  left: 10%;
+}
+
+.linkContainer {
+  display: flex;
+}
+
+.links {
+  padding-right: 10px;
+}

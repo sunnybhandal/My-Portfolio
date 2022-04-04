@@ -3,13 +3,15 @@ import classes from './Navbar.module.css';
 
 export const Navbar = () => {
   return (
-    <div className={`${classes.position}`}>
-      <div className={`${classes.logo}`}>
-        Sunny Bhandal | Data Scientist | Software Developer
+    <section id="navbar">
+      <div className={`${classes.position}`}>
+        <div className={`${classes.logo}`}>
+          Sunny Bhandal
+        </div>
+        <div className={`${classes.menu}`}>
+          Projects Education Skills Contact
+        </div>
       </div>
-      <div className={`${classes.menu}`}>
-        Coming soon...
-      </div>
-    </div>
+    </section>
   )
 }
